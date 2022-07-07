@@ -23,16 +23,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/javaScript.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvamF2YVNjcmlwdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/Python.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHl0aG9uLmNzaHRtbA==
+[/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/pythonPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvcHl0aG9uUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/Shared/_ValidationScriptsPartial.cshtml]

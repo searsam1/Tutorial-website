@@ -14,10 +14,10 @@
             <div class="container bg-light p-3">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Active</a>
+                        <a class="nav-link active" href="/index">home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="/pythonPage">python</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
@@ -30,6 +30,9 @@
         </div>
         
     </header>
+        
+        @* top ads *@
+        
         <div class="container-fluid">
             <h class="display-4">
                 Ads
@@ -37,16 +40,45 @@
         </div>
         <div class="container-fluid">
             <div class="row">
+                
+                @* sidebar *@
+                
                 <div class="col-lg-2 bg-light p-3" style="text-align: center;">
-                    * link go here * 
+                    Links Go here!
+                    <br>
+                    <br>
+                    <ul>
+                        <li>
+                            <a class="anchor" href="/pythonPage#python-programming-language">python</a>
+                        </li>
+                        <ul>
+                            <li>
+                                <a class="anchor" href="/pythonPage#python-loops">loops</a>
+                            <ul>
+                                <li>
+                                    <a class="anchor" href="/pythonPage#python-for-loops">for loops</a>
+                                </li>
+                                <li>
+                                    <a class="anchor" href="/pythonPage#python-while-loops">while loops</a>
+                                </li>
+                            </ul>
+                            </li>
+                        </ul>
+                    </ul>
                 </div>
+
+                
+
+                @* body *@
 
                 <div class="col-lg-8 bg-light p-3" style="text-align: justiy;">
                     @RenderBody()
                 </div>
 
+                @* aside *@
+
                 <div class="col-lg-2 p-3" style="text-align: center;">
-                    More Ads
+                    aside.
                 </div>
             </div>
         </div>

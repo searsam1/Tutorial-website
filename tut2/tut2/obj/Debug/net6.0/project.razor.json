@@ -16298,11 +16298,6 @@
   "RootNamespace": "tut2",
   "Documents": [
     {
-      "FilePath": "/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/javaScript.cshtml",
-      "TargetPath": "Pages\\javaScript.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -16315,6 +16310,11 @@
     {
       "FilePath": "/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/pythonPage.cshtml",
+      "TargetPath": "Pages\\pythonPage.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16335,11 +16335,6 @@
     {
       "FilePath": "/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/111244rfsf/Documents/Repositories/Tutorial-website/tut2/tut2/Pages/Python.cshtml",
-      "TargetPath": "Pages\\Python.cshtml",
       "FileKind": "mvc"
     }
   ],
