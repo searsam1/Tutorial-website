@@ -8,5 +8,10 @@ namespace tut2.Pages
         public void OnGet()
         {
         }
+    public static String title = "Python Programming Language";
+    public static String pythonId = "python-programming-language";
+    public static String pyLoopId = "python-loops";
+    public static String pyLoopText = "loops";
     }
+    
 }

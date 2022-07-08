@@ -8,19 +8,57 @@ html {
   }
 }
 
-ul li a , .anchor{
-  text-decoration: none;
-}
-
 html {
   position: relative;
   min-height: 100%;
+  font-size: larger;
+}
+.anc{
+  display: block;
+  height: 122px; /*same height as header*/
+  margin-top: -122px; /*same height as header*/
+  visibility: hidden;
+  overflow-wrap: normal;
+
+}
+
+a{
+  font-family: sans-serif;
+  font-weight: 300;
+  text-decoration: none; 
+    
+}
+a p {
+  color: black;
+  font-size: large;
+  padding: 10px;
+  
+}
+
+a:hover p{
+  border: solid black 1px;
+  box-shadow: rgba(15, 14, 14, 0.244) 5px 5px 5px;
+  
 }
 
 body {
   margin-bottom: 60px;
+  padding-top: 73px;
+  background-color: white;
+  color: black;
+  
+  
+}
+p {
+  color: red;
+}
+.code-container{
+  background-color: rgba(0, 0, 0, 0.025);
+  color: black;
+  padding: 50px;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-weight: 100;
+  font-family: sans-serif;
+  font-weight: 300;
 }

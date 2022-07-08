@@ -7,23 +7,27 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/tut2.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/tut2.styles.css" asp-append-version="true" />
+     </script>
+    <script src="prism-2.js"></script>
+    <link rel="stylesheet" href="prism-2.css">
 </head>
 <body>
     <header>
-        <div class="row">
-            <div class="container bg-light p-3">
+        <div class="row"">
+            <div class="container bg-light p-3 fixed-top">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="/index">home</a>
+                        <a class="nav-link active" href="/"><p>home</p></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/pythonPage">python</a>
+                        <a class="nav-link" href="/pythonPage"><p>python</p></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#"><p>Link</p></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link disabled" href="#"><p>Disabled</p></a>
                     </li>
                 </ul>
             </div>
@@ -35,43 +39,25 @@
         
         <div class="container-fluid">
             <h class="display-4">
-                Ads
-            </p>
+                @* Ads go here *@
+            
         </div>
         <div class="container-fluid">
             <div class="row">
                 
                 @* sidebar *@
-                
-                <div class="col-lg-2 bg-light p-3" style="text-align: center;">
-                    Links Go here!
-                    <br>
-                    <br>
-                    <ul>
-                        <li>
-                            <a class="anchor" href="/pythonPage#python-programming-language">python</a>
-                        </li>
-                        <ul>
-                            <li>
-                                <a class="anchor" href="/pythonPage#python-loops">loops</a>
-                            <ul>
-                                <li>
-                                    <a class="anchor" href="/pythonPage#python-for-loops">for loops</a>
-                                </li>
-                                <li>
-                                    <a class="anchor" href="/pythonPage#python-while-loops">while loops</a>
-                                </li>
-                            </ul>
-                            </li>
-                        </ul>
-                    </ul>
+
+                <div class="col-lg-2 bg-light">
+                <div class="col-lg-2 bg-light position-fixed text-wrap top-50">
+                  
+                    wow
+                    
+                  
                 </div>
-
-                
-
+                </div>
                 @* body *@
 
-                <div class="col-lg-8 bg-light p-3" style="text-align: justiy;">
+                <div class="col-lg-8 bg-light p-5" style="text-align: justiy;">
                     @RenderBody()
                 </div>
 
@@ -81,20 +67,23 @@
                     aside.
                 </div>
             </div>
+            
+        
         </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - tut2 - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+        
+    <footer>hey</footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
+    <div class="row">
+        <div class="col-lg-2">        
+        </div>
+    </div>
 </body>
+
 </html>
 @* dotnet new page --name Python --namespace tut2.Pages --output Pages *@
 

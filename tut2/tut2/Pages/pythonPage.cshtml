@@ -1,44 +1,62 @@
 ﻿@page
 @model tut2.Pages.pythonPageModel
+
+@* define variables in this scope *@
 @{
+    String title = pythonPageModel.title;
+    String pythonId = pythonPageModel.pythonId;
+    String pyLoopId = pythonPageModel.pyLoopId;
+    String pyLoopText = pythonPageModel.pyLoopText;
 }
 
-<ul>
-    <h1 id="python-programming-language">
-        Python Programming Language
-    </h1>
-    <h2>
-        <li id="python-loops">loops</li>
-    </h2>
+<ul class="p-3">
+    
+    <span class="anc" id=@pythonId></span>
+    <div>
+        <h1>@title</h1>
+    </div>
+    
+    <span class="anc" id=@pyLoopId></span>
+    <div>
+        <h2><li>@pyLoopText</li></h2>
+    </div>
+   
+    
     <ul>
         <li>
             <h5 id="python-for-loops">for Loops</h5>
-        
-    <code>range</code> starts with 0 by default and moves in steps of +1.     
-    <br>
-    One has to supply the end value of the range; then, it goes to <code>n-1</code> if n is the number given.
-    <br>
-    <br>
-    i.e. if one plugs 10 into range() it will start at zero and go to 9.
-        
-        <code><pre>
-    >>> for i in range(10): print(i)
-    ... 
-    0
-    1
-    2
-    3
-    4
-    5
-    6
-    7
-    8
-    9
-    >>> </pre></code>
+    <div class="code-container">
     
-            
+    <br>
+
+    A <i>for loop</i> is repeating something a set number of times. In simplier terms it means to repeat a task a given number of times. Sometimes one wants to access a number aligned with which loop one is on. For example one can start at the number 0 and keep adding 1 until the number hits 9. 
+    <br>
+    <br>
+    Then, one can use that number (call it <code class="language-python">i</code>) to access certain parts of a data structure or list. This is called enumerating over an object.
+    <br>
+    <br>
+    Say one defines <code class="language-python">lst</code> as <code class="language-python">[55, 44, 223, 77]</code>. One can loop over the length of that list and use <code class="language-python">i</code> to get each element at said location.
+    
+    <pre><code class="language-python" id="for-loop-python-example">
+
+lst = [55,44,223,77]
+
+for i in range( len( lst ) - 1 ):
+    # get lst element by "[ ]" operator
+    print( lst[i] )
+    </code></pre>
+    <b>Outputs:</b>
+    <pre><code class="language-python" id="for-loop-python-example">
+    <pre><code class="language-python">
+>>> 55
+>>> 44
+>>> 223        
+    </code></pre>
+    </code></pre>
+    </div>
         </li>
     </ul>
+    
 
  <ul>
         <li>
@@ -54,6 +72,27 @@
 
 
             
+        </li>
+    </ul>
+
+</ul>
+<h2>
+        <li id="python-conditionals">conditionals</li>
+    </h2>
+    <ul>
+        <li>
+            <h5 id="python-conditionals-logical-operators">logical operators</h5>
+        
+   
+            
+        </li>
+    </ul>
+
+ <ul>
+        <li>
+            <h5 id="python-conditionals-bitwise-operators">bitwise operators</h5>
+        
+
         </li>
     </ul>
 
